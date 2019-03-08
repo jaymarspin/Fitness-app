@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mainback"
+    tools:context=".monitor">
+
+    <Button
+        android:id="@+id/monit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="148dp"
+        android:layout_marginTop="29dp"
+        android:layout_marginEnd="148dp"
+        android:text="Add Recording"
+        android:width="300dp"
+        android:background="@drawable/buttonstyle"
+        android:textColor="#525252"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Spinner
+        android:id="@+id/sItems"
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="26dp"
+        android:layout_marginEnd="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/monit" />
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sItems">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/jan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="20dp"
+                android:width="300dp"
+                android:background="@drawable/timeback"
+                android:fontFamily="sans-serif-smallcaps"
+                android:text="January"
+                android:textColor="#383240"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/feb"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="20dp"
+                android:width="300dp"
+                android:background="@drawable/timeback"
+                android:fontFamily="sans-serif-smallcaps"
+                android:text="February"
+                android:textColor="#383240"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/march"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="20dp"
+                android:width="300dp"
+                android:background="@drawable/timeback"
+                android:fontFamily="sans-serif-smallcaps"
+                android:text="March"
+                android:textColor="#383240"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/april"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="20dp"
+                android:width="300dp"
+                android:background="@drawable/timeback"
+                android:fontFamily="sans-serif-smallcaps"
+                android:text="April"
+                android:textColor="#383240"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/may"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="20dp"
+                android:width="300dp"
+                android:background="@drawable/timeback"
+                android:fontFamily="sans-serif-smallcaps"
+                android:text="May"
+                android:textColor="#383240"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/june"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="20dp"
+                android:width="300dp"
+                android:background="@drawable/timeback"
+                android:fontFamily="sans-serif-smallcaps"
+                android:text="June"
+                android:textColor="#383240"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/july"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="20dp"
+                android:width="300dp"
+                android:background="@drawable/timeback"
+                android:fontFamily="sans-serif-smallcaps"
+                android:text="July"
+                android:textColor="#383240"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/aug"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="20dp"
+                android:width="300dp"
+                android:background="@drawable/timeback"
+                android:fontFamily="sans-serif-smallcaps"
+                android:text="August"
+                android:textColor="#383240"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/sep"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="20dp"
+                android:width="300dp"
+                android:background="@drawable/timeback"
+                android:fontFamily="sans-serif-smallcaps"
+                android:text="September"
+                android:textColor="#383240"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/oct"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="20dp"
+                android:width="300dp"
+                android:background="@drawable/timeback"
+                android:fontFamily="sans-serif-smallcaps"
+                android:text="October"
+                android:textColor="#383240"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/nov"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="20dp"
+                android:width="300dp"
+                android:background="@drawable/timeback"
+                android:fontFamily="sans-serif-smallcaps"
+                android:text="November"
+                android:textColor="#383240"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/dec"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="20dp"
+                android:width="300dp"
+                android:background="@drawable/timeback"
+                android:fontFamily="sans-serif-smallcaps"
+                android:text="December"
+                android:textColor="#383240"
+                android:textSize="24sp" />
+        </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>
